@@ -1,0 +1,13 @@
+@import '../fonts/fonts';
+@import './variables';
+
+@import '../../pages/navbar/navbar';
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: $white;
+}
+
+
