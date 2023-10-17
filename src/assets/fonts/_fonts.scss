@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 body {
     $fontThin: 300;
     $fontNormal: 400;
     $fontBold: 700;
 
+    @mixin fontSpecial {
+        font-weight: 700;
+        font-family: 'Caveat', cursive;
+    }
+
     font-family: 'Lato', sans-serif;
     font-weight: $fontNormal;
+
+    .f-special{
+        @include fontSpecial();
+    }
+
+    .f-bold{
+        font-weight: $fontBold;
+    }
+
+    .f-thin{
+        font-weight: $fontThin;
+    }
 }
