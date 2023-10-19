@@ -9,7 +9,7 @@ import Home from './pages/home/home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar/>
-    <Home/>
+    <Navbar />
+    <Home />
   </React.StrictMode>
 );

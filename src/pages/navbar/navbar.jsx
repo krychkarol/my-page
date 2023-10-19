@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
     return (
-        <section className="my-navbar container-fluid">
+        <section className="my-navbar container-fluid sticky-top">
             <div className="name f-special">krychkarol</div>
             <div className="menu-desktop d-none d-lg-block">
                 <ul className="f-bold">

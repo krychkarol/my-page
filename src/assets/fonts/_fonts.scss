@@ -39,4 +39,10 @@ body {
     h2{
         font-size: calc(1 *$fontSize);
     }
+    span{
+        font-size: calc(0.75 *$fontSize);
+    }
+    .icon{
+        font-size: calc(2 *$fontSize);
+    }
 }

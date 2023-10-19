@@ -1,7 +1,7 @@
 @import '../../assets/styles/variables';
 
 .my-navbar {
-    position: relative;
+    //position: relative;
     z-index: 3;
     height: 3rem;
     display: flex;
@@ -138,6 +138,7 @@
         top: 100%;
         left: 0;
         background-color: $white;
+        border-bottom: 3px solid $grey;
 
         ul {
             margin: 0;

@@ -1,43 +1,131 @@
 @import '../../assets/styles/variables';
 
-.test{
+.wrapper {
     padding: 0;
     position: relative;
 }
 
-.my-home{
+.my-home {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 3rem);
+    min-height: calc(100vh - 3rem);
     z-index: 2;
 
-    .home{
+    .home {
         flex: 2;
-        h1, h2{
+
+        h1,
+        h2,
+        .icon {
             background-color: $whiteTransparent;
             border-radius: 20px;
-            width: fit-content;
-        }
-        h1{
             margin-bottom: 2rem;
+            width: fit-content;
+            user-select: none;
         }
-        h2{
-            width: 80%;
+
+        h2 {
+            //width: 80%;
             color: $grey;
-            margin-bottom: 3rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            .icon {
+                transition: all 300ms;
+            }
+
+            .icon:hover {
+                color: $grey;
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+        }
+
+        .tech {
+            color: $grey;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+
+            span {
+                padding-right: 1rem;
+                user-select: none;
+            }
+
+            div {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 1rem;
+                flex-wrap: wrap;
+
+                svg {
+                    font-size: 2rem;
+                    transition: all 300ms;
+                }
+
+                svg:hover{
+                    transform: scale(1.5);
+                }
+            }
+
         }
     }
-    .avatar{
+
+    .avatar {
         flex: 1;
 
-        img{
+        img {
             max-height: 400px;
             max-width: 100%;
             border-bottom: 3px solid $black;
             filter: drop-shadow(0px -10px 30px $grey);
         }
     }
+
+    @media (max-width: 767.98px) {
+        flex-direction: column-reverse;
+
+        .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .avatar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                margin-top: 3rem;
+                // max-height: 400px;
+                object-fit: contain;
+                max-width: 80%;
+                border-bottom: 3px solid $black;
+                filter: drop-shadow(0px -10px 10px $grey);
+            }
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .home{
+            .tech{
+                flex-direction: column;
+
+                span{
+                    padding: 0;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+     }
+
 }
