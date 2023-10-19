@@ -72,7 +72,7 @@
                     transition: all 300ms;
                 }
 
-                svg:hover{
+                svg:hover {
                     transform: scale(1.5);
                 }
             }
@@ -99,11 +99,18 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            h1,
+            h2 {
+                text-align: center;
+            }
         }
+
         .avatar {
             display: flex;
             align-items: center;
             justify-content: center;
+
             img {
                 margin-top: 3rem;
                 // max-height: 400px;
@@ -116,16 +123,16 @@
     }
 
     @media (max-width: 575.98px) {
-        .home{
-            .tech{
+        .home {
+            .tech {
                 flex-direction: column;
 
-                span{
+                span {
                     padding: 0;
                     margin-bottom: 1rem;
                 }
             }
         }
-     }
+    }
 
 }
