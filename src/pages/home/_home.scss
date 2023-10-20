@@ -88,7 +88,7 @@
             max-height: 400px;
             max-width: 100%;
             border-bottom: 3px solid $black;
-            filter: drop-shadow(0px -10px 30px $grey);
+            filter: drop-shadow(0px -10px 10px $grey) brightness(1.75);
         }
     }
 
@@ -118,7 +118,6 @@
                 object-fit: contain;
                 max-width: 80%;
                 border-bottom: 3px solid $black;
-                filter: drop-shadow(0px -10px 10px $grey);
             }
         }
     }
