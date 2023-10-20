@@ -1,0 +1,47 @@
+@import '../../assets/styles/variables';
+
+.my-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    .photo {
+        flex: 1;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+
+        }
+    }
+
+
+    .about {
+        flex: 2;
+
+        h2{
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            color: $grey;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        flex-direction: column;
+
+        .photo{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 80%;
+            }
+        }
+        .about{
+            text-align: center;
+        }
+    }
+}

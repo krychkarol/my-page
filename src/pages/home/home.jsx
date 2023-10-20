@@ -9,15 +9,15 @@ import { faAngular, faBootstrap, faCss3Alt, faGithub, faHtml5, faReact, faSass, 
 const Home = () => {
 
     return (
-        <div className="container-fluid wrapper">
+        <div className="container-fluid wrapper spacer">
             <section className="my-home container">
                 <div className="home">
                     <h1 className="f-b-bold">
                         Frontend<br />Developer
                     </h1>
-                    <h2 className="f-bold">
+                    <h3 className="f-bold">
                         Hey! I'm Karol Krych. A passionate Frontend Developer based in Łódź, Poland. I like to build things for the web.
-                    </h2>
+                    </h3>
                     <a href="https://github.com/krychkarol" target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="icon" />
                     </a>

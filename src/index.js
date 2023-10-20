@@ -4,6 +4,7 @@ import Navbar from './pages/navbar/navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/styles/_index.scss';
 import Home from './pages/home/home';
+import About from './pages/about/about';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,5 +12,6 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Home />
+    <About />
   </React.StrictMode>
 );

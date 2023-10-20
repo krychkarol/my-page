@@ -3,10 +3,22 @@
 
 @import '../../pages/navbar/navbar';
 @import '../../pages/home/home';
+@import '../../pages//about/about';
 
-body{
+body {
     margin: 0;
     padding: 0;
+
+    .spacer {
+        margin-bottom: 15vh;
+    }
+
+
+
+
+    @media (max-width: 767.98px) {
+        .spacer {
+            margin-bottom: 30vh;
+        }
+    }
 }
-
-

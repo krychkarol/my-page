@@ -14,35 +14,44 @@ body {
         font-family: 'Caveat', cursive;
     }
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',
+    sans-serif;
     font-weight: $fontNormal;
 
-    .f-special{
+    .f-special {
         @include fontSpecial();
     }
 
-    .f-bold{
+    .f-bold {
         font-weight: $fontBold;
     }
 
-    .f-b-bold{
+    .f-b-bold {
         font-weight: $fontBigBold;
     }
 
-    .f-thin{
+    .f-thin {
         font-weight: $fontThin;
     }
 
-    h1{
+    h1,
+    .spinner-icon {
         font-size: calc(4 *$fontSize);
     }
-    h2{
+
+    h2 {
+        font-size: calc(2 *$fontSize);
+    }
+
+    h3 {
         font-size: calc(1 *$fontSize);
     }
-    span{
+
+    span {
         font-size: calc(0.75 *$fontSize);
     }
-    .icon{
+
+    .icon {
         font-size: calc(2 *$fontSize);
     }
 }

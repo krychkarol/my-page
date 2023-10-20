@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import '../navbar/_navbar.scss'
 
 const Navbar = () => {
 
