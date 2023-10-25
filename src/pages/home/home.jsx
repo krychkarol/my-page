@@ -2,7 +2,7 @@ import React from 'react';
 import Particle from './components/particle';
 import Avatar from '../../assets/images/avatar.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngular, faBootstrap, faCss3Alt, faGithub, faHtml5, faReact, faSass, faSquareJs } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faBootstrap, faCss3Alt, faDocker, faGithub, faHtml5, faReact, faSass, faSquareJs } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -33,6 +33,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faAngular} style={{ color: "#dd1b16" }} />
                             <FontAwesomeIcon icon={faBootstrap} style={{ color: "#563d7c" }} />
                             <FontAwesomeIcon icon={faSass} style={{ color: "#cc6699" }} />
+                            <FontAwesomeIcon icon={faDocker} style={{ color: "0db7ed" }} />
                         </div>
                     </div>
                 </div>

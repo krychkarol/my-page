@@ -17,16 +17,15 @@
         }
     }
 
-
     .about {
         flex: 2;
 
-        h2{
-            margin-bottom: 2rem;
-        }
-
         h3 {
             color: $grey;
+        }
+
+        @media (max-width: 991.98px) {
+            flex: 1;
         }
     }
 
