@@ -4,7 +4,15 @@
     display: flex;
     flex-direction: column;
 
-    .info {}
+    .info {
+        h2{
+            margin-bottom: 0 !important;
+        }
+        span{
+            color: $grey;
+        }
+        margin-bottom: 3rem;
+    }
 
     .project {
         display: flex;
@@ -83,6 +91,15 @@
                     }
                 }
 
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            flex-direction: column;
+            height: auto;
+
+            .photo{
+                max-height: 26rem;
             }
         }
     }
