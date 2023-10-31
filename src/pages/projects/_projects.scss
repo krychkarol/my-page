@@ -5,13 +5,20 @@
     flex-direction: column;
 
     .info {
-        h2{
+        h2 {
             margin-bottom: 0 !important;
         }
-        span{
+
+        span {
             color: $grey;
         }
+
         margin-bottom: 3rem;
+    }
+
+    .project:nth-of-type(odd) {
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .project {
@@ -21,6 +28,7 @@
         padding: 2rem 0;
         border-radius: 25px;
         gap: 2rem;
+        margin-bottom: 10rem;
 
         .photo {
             position: relative;
@@ -38,6 +46,8 @@
         .photo:hover,
         .photo:focus {
 
+            cursor: pointer;
+
             img {
                 transform: translateY(calc(-100% + 26rem));
             }
@@ -52,6 +62,7 @@
 
             h3 {
                 color: $grey;
+                text-align: center;
             }
 
             span {
@@ -86,7 +97,7 @@
                     transform: scale(1.2);
                     cursor: pointer;
 
-                    h3{
+                    h3 {
                         color: $grey !important;
                     }
                 }
@@ -98,9 +109,18 @@
             flex-direction: column;
             height: auto;
 
-            .photo{
+            .photo {
                 max-height: 26rem;
             }
+        }
+    }
+
+    .more {
+        display: flex;
+        justify-content: center;
+
+        a{
+            color: inherit;
         }
     }
 }
