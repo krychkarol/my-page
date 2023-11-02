@@ -2,6 +2,7 @@ import React from 'react';
 import Photo from '../../assets/images/about.jpg';
 
 const About = () => {
+
     return (
         <section className="my-about container spacer">
             <div className="photo">

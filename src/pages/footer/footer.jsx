@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
+
     return (
         <section className="my-footer f-special">
             <h3>

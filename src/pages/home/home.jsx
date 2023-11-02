@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngular, faBootstrap, faCss3Alt, faDocker, faGithub, faHtml5, faReact, faSass, faSquareJs } from '@fortawesome/free-brands-svg-icons';
 
 
-
 const Home = () => {
 
     return (
@@ -45,10 +44,7 @@ const Home = () => {
                 <Particle />
             </div>
         </div>
-
-
     )
-
 }
 
 export default Home
