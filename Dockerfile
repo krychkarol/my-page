@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-WORKDIR /portfolio
+WORKDIR /portfolio/
 
 COPY public/ /portfolio/public
 COPY src/ /portfolio/src
