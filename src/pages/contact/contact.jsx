@@ -13,7 +13,7 @@ const Contact = () => {
                     If you want to get in touch or just say Hi, please click envelope below to contact me. I would love to hear from you!
                 </h3>
                 <div className="icon">
-                    <FontAwesomeIcon icon={faEnvelope} onClick={() => { window.location.href = 'mailto:example@email.com' }} />
+                    <FontAwesomeIcon icon={faEnvelope} onClick={() => { window.location.href = 'mailto:krych.karol.93@gmail.com' }} />
                 </div>
             </div>
         </section>
