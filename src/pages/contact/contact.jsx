@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Contact = () => {
     return (
-        <section className="my-contact container spacer">
+        <section className="my-contact container spacer" id="contact">
             <div className="wrapper">
                 <h2 className="f-b-bold">
                     Contact Me

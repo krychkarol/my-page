@@ -6,7 +6,7 @@ import { faArrowUpRightFromSquare, faCode } from '@fortawesome/free-solid-svg-ic
 const Projects = () => {
 
     return (
-        <section className="my-projects container spacer">
+        <section className="my-projects container spacer" id="projects">
             <div className="info">
                 <h2 className="f-b-bold">Projects</h2>
                 <span className="f-bold">See the code page for more details.</span>
