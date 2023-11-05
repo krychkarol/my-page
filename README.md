@@ -2,7 +2,7 @@
 
 A SPA page build in React providing basic information about me and projects.
 
-Visit my website [here](https://krychkarol.pl/) !
+Visit my website [here](https://krychkarol.pl/) ! :)
 
 ###
 
